@@ -184,11 +184,23 @@ div.cookiePolicy.sc-background-light {
 	height: 2em;
 	padding-right: 8px;
 	top: .3em;
+    width: auto;
 	position: relative;
 	flex-basis: auto;
 	vertical-align: center;
 }
 
+.social-link-icon {
+    width: 64px;
+    text-align: center;
+}
+
+
+@media (min-width:992px) {
+   .social-link-icon {
+       width: auto;
+       padding-right: 8px;
+}
 
 @media (max-width:500px) {
 	.jumbotron {
