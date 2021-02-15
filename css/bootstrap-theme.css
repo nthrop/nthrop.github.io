@@ -190,11 +190,12 @@ div.cookiePolicy.sc-background-light {
 	vertical-align: center;
 }
 
-.social-link-icon {
-    width: 64px;
-    text-align: center;
+@media (max-width:991px) {
+    .social-link-icon {
+        width: 64px;
+        text-align: center;
+    }
 }
-
 
 @media (min-width:992px) {
    .social-link-icon {
